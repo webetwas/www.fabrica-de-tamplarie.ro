@@ -822,7 +822,7 @@ if (!empty($catalogpdf) && isset($catalogpdf)) { ?>
 
     <?php
     if (have_rows('rulouri')) { ?>
-    <div class="separator"></div>
+        <div class="separator"></div>
         <div class="container">
             <div class="row  mtb-30">
                 <div class="col-sm-12 text-center">
@@ -845,7 +845,7 @@ if (!empty($catalogpdf) && isset($catalogpdf)) { ?>
                                 </a><br />
                                 <p>
                                     <a href="">
-                                        <h4 class="text-center"><?php the_sub_field('denumire');?></h4>
+                                        <h4 class="text-center"><?php the_sub_field('denumire'); ?></h4>
                                     </a>
                                 </p>
 
@@ -857,7 +857,7 @@ if (!empty($catalogpdf) && isset($catalogpdf)) { ?>
                 </div>
             </div>
         </div>
-        
+
     <?php
 }
 ?>
@@ -924,6 +924,7 @@ if (!empty($catalogpdf) && isset($catalogpdf)) { ?>
 }
 
 get_template_part('acf_sections/sectiune_lista_usi');
+get_template_part('acf_sections/sectiune_galerie_produs');
 ?>
 
 </main>
@@ -969,8 +970,8 @@ get_template_part('acf_sections/sectiune_lista_usi');
     </div>
 </div>
 <!--parteneri-->
-<?php
 
+<?php
 get_footer();
 
 ?>
