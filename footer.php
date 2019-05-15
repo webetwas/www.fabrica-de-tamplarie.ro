@@ -175,6 +175,7 @@
 
     $(function() {
         $('.boxequal').matchHeight();
+        $('.boxequal-2').matchHeight();
     });
 </script>
 </body>

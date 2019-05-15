@@ -369,7 +369,7 @@ if (!empty($catalogpdf) && isset($catalogpdf)) { ?>
                         while (have_rows('tipologii_usi')) {
                             the_row();
                             ?>
-                            <div class="col-sm-4 col-image">
+                            <div class="col-sm-2 col-image boxequal-2">
                                 <a href="" class="">
                                     <img src="<?php the_sub_field('imagine') ?>" alt="">
                                 </a>
